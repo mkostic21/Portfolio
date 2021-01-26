@@ -1,0 +1,169 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    margin: 10px;
+    padding: 5px;
+    height: 120px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 30px;
+    height: 100%;
+    width: 120px;
+}
+
+.navigation ul {
+    height: 70px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    line-height: 70px;
+    font-family: sans-serif;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.navigation ul li a:hover {
+    background-color: blueviolet;
+}
+
+.header {
+    width: 100%;
+    height: 380px;
+    background-image: url(../images/aaaaaaa.png);
+    opacity: 0.7;
+}
+
+.header h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+}
+
+.content h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: darkslategray;
+}
+
+.skills {
+    float: left;
+    margin-left: 150px;
+}
+
+.skills img {
+    padding: 10px;
+}
+
+.about {
+    float: none;
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+.about h1 {
+    font-family: sans-serif;
+    color: darkslategray;
+    text-align: center;
+}
+
+.about hr {
+    width: 200px;
+}
+
+.textabout {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+}
+
+.textabout p {
+    font-family: sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.contact {
+    width: 100%;
+    height: 500px;
+}
+
+.contact h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: darkslategray;
+}
+
+.contact hr {
+    width: 200px;
+}
+
+.name {
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.eMail {
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.phone {
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contactPic {
+    float: right;
+    clear: right;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+.footer {
+    margin: 10px;
+    padding: 5px;
+    height: 120px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.footer p {
+    color: aliceblue;
+    line-height: 80px;
+    text-align: end;
+    font-size: 20px;
+}
+
+.homebtn {
+    float: left;
+    margin-left: 20px;
+    background-color: blue;
+}
